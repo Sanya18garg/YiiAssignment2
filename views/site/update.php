@@ -116,50 +116,52 @@
     <div class="d-flex justify-content-center h-100">
         <div class="card">
             <div class="card-header">
-                <h3>Sign Up</h3>
-                <div class="d-flex justify-content-end social_icon">
-                    <span><i class="fab fa-facebook-square"></i></span>
-                    <span><i class="fab fa-google-plus-square"></i></span>
-                    <span><i class="fab fa-twitter-square"></i></span>
-                </div>
+                <h3><b>Update the Profile</b></h3>
+
             </div>
             <div class="card-body">
                 <form action="login.php" method="post">
                     <div class="input-group form-group">
+
                         <div class="input-group-prepend">
                             <span class="input-group-text"><i class="fas fa-user"></i></span>
                         </div>
-                        <input type="text" class="form-control" placeholder="username" name="name">
+
+                        <input type="text" class="form-control" placeholder="username" name="name"disabled>
 
                     </div>
                     <div class="input-group form-group">
                         <div class="input-group-prepend">
                             <span class="input-group-text"><i class='fas fa-key'></i></span>
                         </div>
-                        <input type="password" class="form-control" placeholder="password" name="password">
+                        <input type="password" class="form-control" placeholder=" Change password" name="password">
+                    </div>
+                    <div class="input-group form-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class='fas fa-key'></i></span>
+                        </div>
+                        <input type="password" class="form-control" placeholder=" Confirm password" name="password">
                     </div>
                     <div class="input-group form-group">
                         <div class="input-group-prepend">
                             <span class="input-group-text"><i class="fas fa-envelope"></i></span>
                         </div>
-                        <input type="text" class="form-control" placeholder="Email" name="email">
+                        <input type="text" class="form-control" placeholder="Update Email" name="email">
                     </div>
                     <div class="input-group form-group">
                         <div class="input-group-prepend">
                             <span class="input-group-text"><i class="fas fa-phone"></i></span>
                         </div>
-                        <input type="text" class="form-control" placeholder="Mobile No"name="mobile">
+                        <input type="text" class="form-control" placeholder="Update Mobile No"name="mobile">
                     </div>
 
                     <div class="form-group">
-                        <input type="submit" value="Sign Up" class="btn float-right login_btn">
+                        <input type="submit" value="Updated" class="btn float-right login_btn">
                     </div>
                 </form>
             </div>
             <div class="card-footer">
-                <div class="d-flex justify-content-center links">
-                     Have an account?<a href="http://localhost/yii/basic/views/site/index.php">Login</a>
-                </div>
+
 
             </div>
         </div>
